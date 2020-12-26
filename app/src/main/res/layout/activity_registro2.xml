@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Registro2">
+
+            <ImageView
+                android:id="@+id/imageViewLogo_Reg2"
+                android:layout_width="293dp"
+                android:layout_height="139dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cadinlogo" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginRight="40dp"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageViewLogo_Reg2">
+
+                <!--<EditText
+                    android:id="@+id/edEmail_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edTextRegistro_height"
+                    android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+                    android:ems="10"
+                    android:hint="Correo Electrónico"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/color_hintEdText_Reg" />-->
+
+                <EditText
+                    android:id="@+id/edPhone_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edTextRegistro_height"
+                    android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+                    android:ems="10"
+                    android:hint="Celular"
+                    android:inputType="phone"
+                    android:textColorHint="@color/color_hintEdText_Reg" />
+
+                <EditText
+                    android:id="@+id/edCod_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edTextRegistro_height"
+                    android:ems="10"
+                    android:hint="Contraseña"
+                    android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+                    android:inputType="textPassword" />
+
+                <!--<TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="6dp"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="Pregunta de Seguridad"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="16sp" />-->
+
+                <!--<Spinner
+                    android:id="@+id/spinnerPreguntas_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edTextRegistro_height"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/spinner_1" />-->
+
+                <!--<EditText
+                    android:id="@+id/edRespPregunta_Reg"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/edTextRegistro_height"
+                    android:ems="10"
+                    android:focusable="false"
+                    android:hint="Respuesta"
+                    android:inputType="textPersonName"
+                    android:textColorHint="@color/color_hintEdText_Reg" />-->
+
+            </LinearLayout>
+
+            <!--<CheckBox
+                android:id="@+id/checkBox_Reg"
+                android:layout_width="329dp"
+                android:layout_height="49dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="20dp"
+                android:paddingRight="15dp"
+                android:text="Acepto lo términos y condiciones de privacidad"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />-->
+
+            <Button
+                android:id="@+id/buttonRegistrarse"
+                style="@style/button1Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrarse"
+                android:layout_marginTop="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</ScrollView>

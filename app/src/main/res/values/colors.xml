@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0088EF</color> <!-- Actionbar,Primary #00A6EF-->
+    <color name="colorPrimaryDark">#0088EF</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="white_overlay">#DDDDDD</color>
+
+    <color name="color_principal">#00A6EF</color>
+    <color name="color_complement">#0097CC</color>
+    <color name="color_pactive">#6dd4ed</color>
+
+    <color name="color_launch_copyright">#8DC1E2</color>
+    <color name="color_button_1">@color/color_principal</color>
+    <color name="color_button_1_dark">#0097CC</color>
+    <color name="color_button_2">#21C1A6</color>
+    <color name="color_button_2_dark">#0BA083</color>
+    <color name="color_text_button_1">#FFFFFF</color>
+    <color name="color_text_button_2">@color/color_principal</color>
+    <color name="color_hintEdText_Log">#507C87</color>
+    <color name="color_hintEdText_Reg">#b9c2c4</color>
+
+    <color name="color_labelForm">#313131</color>
+    <color name="color_BottomNavigation">#FFFFFF</color>
+    <color name="color_itemBgcButtonNavigation">#00000000</color>
+    <color name="color_itemButtonNavigation">@color/color_principal</color>
+    <color name="color_itemButtonNavigation_Active">@color/color_pactive</color>
+    <color name="color_textItemButtonNavigation">#212121</color>
+
+    <!--  Panel Principal  -->
+    <color name="colorbgc_panelUsuario">#FFFFFF</color>
+    <color name="cl_panelProfileTable_label">#6BD1FF</color>
+    <color name="cl_panelProfileTable_textValue">#FFFFFF</color>
+    <color name="cl_panelCircularGrafic">#00ffff</color>
+    <color name="cl_panelProfileListItems_header">@color/color_principal</color>
+    <color name="cl_panelProfileListItems_headertxt">@color/white</color>
+    </resources>

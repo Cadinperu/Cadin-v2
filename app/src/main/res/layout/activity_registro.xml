@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registro">
+
+    <ImageView
+        android:id="@+id/imageViewLogo_Reg"
+        android:layout_width="293dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cadinlogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogo_Reg">
+
+        <EditText
+            android:id="@+id/edNombre_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edTextRegistro_height"
+            android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+            android:ems="10"
+            android:hint="Nombre"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/color_hintEdText_Reg" />
+
+        <EditText
+            android:id="@+id/edApellidoPat_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edTextRegistro_height"
+            android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+            android:ems="10"
+            android:hint="Apellido Paterno"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/color_hintEdText_Reg" />
+
+        <EditText
+            android:id="@+id/edApellidoMat_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edTextRegistro_height"
+            android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+            android:ems="10"
+            android:hint="Apellido Materno"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/color_hintEdText_Reg" />
+
+        <EditText
+            android:id="@+id/edDate_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edTextRegistro_height"
+            android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+            android:ems="10"
+            android:hint="Fecha de Nacimiento"
+            android:inputType="date"
+            android:textColorHint="@color/color_hintEdText_Reg" />
+
+        <EditText
+            android:id="@+id/edDni_Reg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edTextRegistro_height"
+            android:layout_marginBottom="@dimen/edTextRegistro_marginb"
+            android:ems="10"
+            android:hint="Número DNI"
+            android:inputType="number"
+            android:textColorHint="@color/color_hintEdText_Reg" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonContinuar_Reg"
+        android:layout_width="wrap_content"
+        android:layout_height="43dp"
+        android:layout_marginTop="12dp"
+        android:background="#00000000"
+        android:drawableRight="@drawable/vector_arrowright"
+        android:drawableTint="@color/color_text_button_2"
+        android:fontFamily="@font/lato_regular"
+        android:paddingLeft="20dp"
+        android:paddingRight="1dp"
+        android:text="Continuar"
+        android:textAllCaps="false"
+        android:textColor="@color/color_text_button_2"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
+
+</ScrollView>

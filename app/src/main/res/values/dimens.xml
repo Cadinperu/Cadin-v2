@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="edTextRegistro_height">60dp</dimen>
+    <dimen name="edTextRegistro_marginb">20dp</dimen>
+    <dimen name="vct_arrows_size">10dp</dimen>
+    <dimen name="borderSpinner_width">1dp</dimen>
+
+    <!-- PanelPrincipal !-->
+    <dimen name="mg_panel_lados">25dp</dimen>
+
+    <!-- BottomNavigation Size Item  !-->
+    <dimen name="bottomNavItemIcon_size">32dp</dimen>
+</resources>

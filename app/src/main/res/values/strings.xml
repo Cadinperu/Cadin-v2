@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Cadin</string>
+
+    <string name="str_registraseAqui"><u>Registrarse aquí</u></string>
+    <string name="str_hint_loginInput"><font face="@font/lato_regular" size="20">Ingresar número DNI</font></string>
+    <string name="str_hint_loginAccessInput"><font face="@font/lato_regular" size="20">Ingresar Código</font></string>
+
+    <!-- Panel Notify -->
+    <string name="str_notify_item">Primera notificacion en la aplicación</string>
+    <string-array name="str_notify_array">
+        <item>Primera notificacion en la aplicación</item>
+        <item>Segunda notificacion en la aplicación</item>6
+        <item>Otra notificacion desde el móvil</item>
+        <item>Cuarta notificacion en la aplicación</item>
+        <item>Segunda notificacion en la aplicación</item>
+        <item>Octava notificacion desde el móvil</item>
+        <item>Otra notificacion en la aplicación</item>
+    </string-array>
+
+    <!-- Panel Registro -->
+    <string-array name="preguntasReg">
+        <item>Seleccionar</item>
+        <item>¿Qué deporte me gusta?</item>
+        <item>¿Cuál es el nombre de mi Mascota?</item>
+        <item>Mi color preferido es</item>
+        <item>Mi canción favorita es</item>
+    </string-array>
+
+    <string-array name="spinner_regvacunas">
+        <item>Seleccione una vacuna</item>
+    </string-array>
+    <string-array name="spinner_regtriaje">
+        <item>Eliga el Triaje</item>
+    </string-array>
+    <string-array name="spinner_reglicenciado">
+        <item>Eliga el nombre del Doctor</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="toolbar_image">toolbar_image</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

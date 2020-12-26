@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_panel"
+    app:startDestination="@id/panelHomeFrag">
+
+    <fragment
+        android:id="@+id/panelHistorialFrag"
+        android:name="com.example.cadin.ui.panelhistorial.PanelHistorialFrag"
+        android:label="fragment_panel_historial"
+        tools:layout="@layout/fragment_panel_historial" />
+    <fragment
+        android:id="@+id/panelNotifyFrag"
+        android:name="com.example.cadin.ui.panelnotify.PanelNotifyFrag"
+        android:label="fragment_panel_notify"
+        tools:layout="@layout/fragment_panel_notify" >
+        <action
+            android:id="@+id/action_panelNotifyFrag_to_panelNotifyInfoFrag"
+            app:destination="@id/panelNotifyInfoFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/panelSettingFrag"
+        android:name="com.example.cadin.ui.panelsettings.PanelSettingFrag"
+        android:label="fragment_panel_setting"
+        tools:layout="@layout/fragment_panel_setting" />
+    <fragment
+        android:id="@+id/panelHomeFrag"
+        android:name="com.example.cadin.ui.panelhome.PanelHomeFrag"
+        android:label="fragment_panel_home"
+        tools:layout="@layout/fragment_panel_home" />
+    <fragment
+        android:id="@+id/panelNotifyInfoFrag"
+        android:name="com.example.cadin.ui.panelnotify.PanelNotifyInfoFrag"
+        android:label="fragment_panel_notify_info"
+        tools:layout="@layout/fragment_panel_notify_info" />
+</navigation>
